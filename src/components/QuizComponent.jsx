@@ -4,8 +4,7 @@ const QuizComponent = () => {
   const [questions, setQuestions] = useState([])
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [score, setScore] = useState(0)
-  const [showScore, set
-ShowScore] = useState(false)
+  const [showScore, setShowScore] = useState(false)
 
   useEffect(() => {
     fetch('/api/quiz')
