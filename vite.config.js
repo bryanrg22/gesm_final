@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/gesm_final/', // Add your repository name here
   server: {
     proxy: {
       '/api': {
@@ -13,4 +14,3 @@ export default defineConfig({
     }
   }
 })
-
