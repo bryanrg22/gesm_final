@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Layout>
         <Routes>
-          <Route path="/gesm_final" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/themes" element={<Themes />} />
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/characters" element={<Characters />} />
